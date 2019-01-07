@@ -13,13 +13,13 @@ mvn clean package
 Para correr la aplicación, basta ejecutar el siguiete comando:
 
 ````
-mvn exec:java@proceso1 -Dexec.args='/Users/chunhaulai/Downloads/Entregables/nodos.txt /Users/chunhaulai/Downloads/Entregables/arcos.txt /Users/chunhaulai/Downloads/Entregables'
+mvn exec:java@proceso1 -Dexec.args='ejemplo/nodos.txt ejemplo/arcos.txt ejemplo/'
 ````
 donde se recibe tres parametros: 
 
 1) la ruta absoluta donde está el archivo nodos.txt
 2) la ruta absoluta donde está el archvo arcos.txt
-3) la ruta absoluta donde se generará las salidas
+3) la ruta absoluta donde se generará las salidas (por ejemplo, en la ruta donde se encuentra especificada la carpeta ejemplo/)
 
 Una vez ejecutado, se verán las salidas en la ruta especificada en el punto 3.
 
