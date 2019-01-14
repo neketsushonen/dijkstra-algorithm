@@ -59,6 +59,15 @@
 							<mainClass>cl.lai.algorithm.App</mainClass>
 						</configuration>
 					</execution>
+					<execution>
+						<id>proceso2</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>cl.lai.algorithm.Dial</mainClass>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
