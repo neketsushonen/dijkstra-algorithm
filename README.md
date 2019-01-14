@@ -10,7 +10,7 @@ Para compilar esta aplicación, se debe ejecutar el siguiente comando desde la r
 mvn clean package
 ````
 
-Para correr la aplicación, basta ejecutar el siguiete comando:
+Para correr la implementación del Algoritmo Dijsktra Simple, basta ejecutar el siguiete comando:
 
 ````
 mvn exec:java@proceso1 -Dexec.args='ejemplo/nodos.txt ejemplo/arcos.txt ejemplo/'
@@ -23,4 +23,10 @@ donde se recibe tres parametros:
 
 Una vez ejecutado, se verán las salidas en la ruta especificada en el punto 3.
 
+Para correr la implementación DIAL del Algoritmo Dijsktra, basta ejecutar el siguiete comando:
+
+````
+mvn exec:java@proceso2 -Dexec.args='ejemplo/nodos.txt ejemplo/arcos.txt ejemplo/'
+````
+Recibirán los mismos parametros que la implementación anterior, y una vez ejecutado, se verán las salidas en la ruta especificada en el punto 3.
 
